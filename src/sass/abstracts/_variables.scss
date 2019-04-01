@@ -1,0 +1,12 @@
+$container_background: #ebf5f4;
+$outline_color: #f9dcb2;
+$primary_font_color: #27354f;
+$nav_font_color: #9ca3af;
+$footer_font_color: #9ca3af;
+$social-media_font_color: #9ec1be;
+
+@mixin desktop {
+    @media(min-width: 1200px) {
+        @content;
+    }
+}

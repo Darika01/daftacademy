@@ -1,0 +1,23 @@
+.navbar__nav {
+    display: grid;
+    padding: 2rem 0;
+    grid-template-columns: repeat(2, 1fr);
+
+    @include desktop {
+        grid-template-columns: repeat(8, auto);
+    }
+}
+.nav__item {
+    font-size: 18px;
+    text-align: center;
+    padding: 0.5rem 0.2rem;
+    a {
+        color: $nav_font_color;
+
+        &:hover {
+            color: $primary_font_color;
+            border-bottom: 3px solid $primary_font_color;
+
+        }
+    }
+}

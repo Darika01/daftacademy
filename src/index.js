@@ -1,3 +1,6 @@
-import './styles/style.css';
+// import './styles/style.css';
 import myObject from './js/script.js';
-myObject();
+import './sass/main.scss'
+// myObject();
+
+// document.body.innerHTML = '<h1>Hello!</h1> <p>I am styled.</p>'

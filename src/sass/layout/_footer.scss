@@ -1,0 +1,25 @@
+.footer {
+    display: block;
+    justify-content: space-between;
+    margin: 2rem 8rem;
+
+    @include desktop {
+        display: flex;
+    } 
+}
+
+.footer__item {
+    padding: 1rem 0;
+}
+
+.footer__item, .social-media {
+    display: flex;
+    color: $footer_font_color;  
+}
+
+.social-media__item {
+    padding-left: 1rem;
+    a {
+        color: $social-media_font_color;
+    }
+}

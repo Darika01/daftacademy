@@ -1,0 +1,19 @@
+.container {
+    background-color: $container_background;
+    margin-top: 5rem;
+
+    @include desktop {
+        margin: 5rem;
+        margin-bottom: 0;
+    } 
+}
+
+.content {
+    padding: 2rem;
+
+    @include desktop {
+        max-width: 1140px;
+        margin: 0 auto;
+    }
+}
+

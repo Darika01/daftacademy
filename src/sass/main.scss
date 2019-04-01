@@ -1,0 +1,11 @@
+@import "reset";
+
+$fa-font-path: "~font-awesome/fonts";
+@import '~font-awesome/scss/font-awesome.scss';
+
+@import "./abstracts/variables";
+@import "./components/gallery.scss";
+@import "./layout/navigation";
+@import "./layout/footer";
+@import "./layout/content";
+@import "./layout/header";
